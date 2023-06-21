@@ -1,0 +1,37 @@
+/* .loginBody {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  margin: 0 auto -236px;
+  max-width: 450px;
+  min-height: 100vh;
+  color: #333;
+  padding: 10px;
+} */
+
+.loginBody {
+  border-radius: 10px;
+  background-color: black;
+  min-height: 550px;
+  opacity: 0.8;
+  margin-top: 2em;
+  padding: 4em;
+}
+
+.login-wrapper-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  display: block;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(255, 200, 0);
+}

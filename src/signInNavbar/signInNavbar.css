@@ -1,0 +1,6 @@
+.selection {
+  color: white;
+  padding: 3px 5px;
+  background: rgb(51, 51, 51);
+  cursor: pointer;
+}

@@ -1,0 +1,191 @@
+@media screen and (min-width: 606px) {
+  h1 {
+    font-size: 2.8em;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+h2 {
+  display: flex;
+  box-sizing: inherit;
+  padding: 0px;
+  font-size: 2rem;
+  margin-top: 16px;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 606px) {
+  p {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+}
+
+.btn {
+  background: rgb(193, 17, 25);
+}
+
+.input-field {
+  transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+  width: 50%;
+  border: 1px solid white;
+  color: transparent;
+  line-height: 1.5rem;
+  padding: 1.5rem 1rem 0.5rem;
+}
+
+.hero-img {
+  padding: 5em;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  height: auto;
+  background-position: center;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+
+  height: auto;
+}
+
+.left-side {
+  max-width: 100%;
+  text-align: left;
+  line-height: 1.5;
+  width: 100%;
+  position: relative;
+}
+
+.section1 {
+  border-radius: 25px;
+  background-color: rgba(0, 8, 29, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 8, 29, 1),
+    rgb(5, 23, 18) 40%,
+    rgba(38, 2, 78, 1) 100%
+  );
+  overflow: hidden;
+}
+
+.section2 {
+  overflow: hidden;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+}
+
+.three {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .one {
+    display: inline;
+  }
+
+  .two {
+    display: inline;
+  }
+
+  .three {
+    display: inline;
+  }
+}
+
+.line-long-area {
+  width: 100%;
+  padding: 12px min(10%, 6.25rem);
+  flex: 100%;
+}
+
+.line-long {
+  border-bottom: 8px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+li {
+  list-style-type: none;
+  text-indent: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.box {
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 0.0625rem;
+  position: relative;
+  background-color: rgba(19, 33, 68, 1);
+  color: rgba(255, 255, 255, 1);
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+
+a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  border-radius: 0.125rem;
+}
+
+footer {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  border-radius: 0.125rem;
+  box-sizing: inherit;
+  margin-top: 36px;
+}
+
+.footer-section {
+  overflow: hidden;
+  width: 100%;
+}
+
+.selection {
+  color: white;
+  border-radius: 5px;
+  padding: 5px 5px;
+  background: rgb(51, 51, 51);
+  cursor: pointer;
+}

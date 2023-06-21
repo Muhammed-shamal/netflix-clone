@@ -1,0 +1,51 @@
+.section-hero {
+  margin: 2em;
+  position: relative;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-container {
+    display: inline;
+  }
+}
+
+.hero-image {
+  display: flex;
+}
+
+.info-container {
+  max-width: 600px;
+  min-width: 400px;
+  position: relative;
+}
+
+.wrapper-nav {
+  box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, 0.37);
+  margin-bottom: 32px;
+  margin-top: -64px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+  display: flex;
+  z-index: 2;
+}
+
+.hook-hr {
+  background: linear-gradient(90deg, #777 0, rgba(51, 51, 51, 0.5) 50%, #777);
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.border-set {
+  text-align: center;
+}

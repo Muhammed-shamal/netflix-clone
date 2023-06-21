@@ -1,0 +1,61 @@
+.posters {
+  display: flex;
+  margin: 16px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  transition: all 1s ease;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  cursor: pointer;
+  max-height: 150px;
+  margin-right: 10px;
+  margin-top: 1em;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+
+.smallText {
+  font-size: 13px;
+  text-align: center;
+}
+
+.smallPoster {
+  max-height: 100px;
+  margin-right: 10px;
+  margin-top: 1em;
+}
+
+/* .slider {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+} */
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+video {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
