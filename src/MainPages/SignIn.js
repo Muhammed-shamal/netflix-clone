@@ -34,13 +34,15 @@ export default function SignIn() {
   };
 
   return (
-    <div className="container py-5">
+    <div className="container">
       <SignSectionNavbar />
       <Row className="mt-5 ">
         <Col>
           <div className="hero-img ">
-            <h1>Unlimited movies, TV</h1>
-            <h1>shows and more</h1>
+            <div className="heading">
+              <h1>Unlimited movies, TV</h1>
+              <h1>shows and more</h1>
+            </div>
 
             <div className="mt-3 mb-4">
               <p>Watch anywhere. Cancel anytime.</p>
@@ -180,7 +182,7 @@ export default function SignIn() {
         <Container>
           <Row>
             <div>
-              <h2 className="mb-4 ">Frequently Asked Questions</h2>
+              <h2 className="mb-4 ques">Frequently Asked Questions</h2>
 
               <div>
                 <ul>
@@ -192,6 +194,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>
@@ -221,6 +224,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>
@@ -247,6 +251,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>
@@ -278,6 +283,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>
@@ -302,6 +308,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>
@@ -327,6 +334,7 @@ export default function SignIn() {
                     }}
                   >
                     <Collapsible
+                      className="texts"
                       trigger={
                         <div className="box d-flex justify-content-between">
                           <h3>

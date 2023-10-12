@@ -3,5 +3,30 @@
   padding: 3px 5px;
   background: rgb(51, 51, 51);
   cursor: pointer;
+  
 }
 
+.navbar-img {
+  width: 150px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .selection {
+    padding: 2px 3px;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .userName {
+    font-size: small;
+    margin-left: 5px;
+  }
+}

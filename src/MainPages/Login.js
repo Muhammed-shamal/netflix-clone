@@ -75,7 +75,7 @@ export default function Login() {
               <Col>
                 {" "}
                 <Form
-                  className="mt-3 mb-4"
+                  className="form mt-3 mb-4"
                   style={{ background: "hsla(0, 0%, 100%, 0.55);" }}
                 >
                   <Form.Group className="mt-4 mb-3">
@@ -136,17 +136,17 @@ export default function Login() {
                   <div className="d-flex justify-content-between mt-2 mb-4">
                     <div>
                       <input type="checkbox" />
-                      <span className="ms-2">Remember</span>
+                      <span className="rem ms-2">Remember</span>
                     </div>
-                    <span>Need help? </span>
+                    <span className="hlp">Need help? </span>
                   </div>
 
-                  <Form.Text className="mt-4">
-                    New to Netlix ?<Link to={"/sign"}> Sign up now</Link>
+                  <Form.Text className="txt mt-4">
+                    New to Netlix ?<Link to={"/signIn"}> Sign up now</Link>
                   </Form.Text>
 
                   <div className="mt-2">
-                    <small>
+                    <small className="small">
                       This page is protected by Google reCAPTCHA to <br />{" "}
                       ensure you're not a bot.{" "}
                     </small>

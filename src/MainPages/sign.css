@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
   }
 }
@@ -43,9 +43,13 @@ h2 {
   transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
   width: 50%;
   border: 1px solid white;
-  color: transparent;
+  color: white;
   line-height: 1.5rem;
   padding: 1.5rem 1rem 0.5rem;
+}
+
+.input-field:-webkit-autofill {
+  color: #999 !important;
 }
 
 .hero-img {
@@ -59,12 +63,33 @@ h2 {
   background-size: cover;
   height: auto;
   background-position: center;
+
+  max-width: 100%;
+  text-align: left;
+  line-height: 1.5;
   width: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .ques {
+    font-size: medium;
+  }
+
+  .texts {
+    font-size: small;
+  }
+
+  .hero-img {
+    padding: 10px;
+  }
+  .btn {
+    font-size: small;
+  }
 }
 
 img {
   max-width: 100%;
-
   height: auto;
 }
 

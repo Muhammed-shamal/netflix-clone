@@ -25,7 +25,7 @@ export default function RowPost({ title, isSmall, url }) {
   return (
     <div className="container">
       <div>
-        <h5 className="mt-5 ">{title}</h5>
+        <h5 className="title mt-5 ">{title}</h5>
         <div className="posters">
           {post.map((value) => (
             <>

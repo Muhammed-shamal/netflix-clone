@@ -17,6 +17,12 @@
   transition-delay: 0.15s;
 }
 
+@media screen and (max-width: 600px) {
+  .banner-discription {
+    font-size: small;
+  }
+}
+
 .banner-title {
   position: relative;
   width: 90%;
@@ -67,4 +73,13 @@
 .button:hover {
   color: black;
   background: #e6e6e6;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
 }

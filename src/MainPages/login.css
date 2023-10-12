@@ -12,10 +12,31 @@
 .loginBody {
   border-radius: 10px;
   background-color: black;
-  min-height: 550px;
   opacity: 0.8;
-  margin-top: 2em;
   padding: 4em;
+}
+
+@media screen and (max-width: 600px) {
+  .loginBody {
+    padding: 1em;
+    height: auto;
+  }
+
+  .rem {
+    font-size: small;
+  }
+
+  .hlp {
+    font-size: small;
+  }
+
+  .txt {
+    font-size: small;
+  }
+
+  .small {
+    font-size: smaller;
+  }
 }
 
 .login-wrapper-background {
