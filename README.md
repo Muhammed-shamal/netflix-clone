@@ -1,4 +1,4 @@
-# introduction 
+# Introduction 
 
 The Netflix Clone project is a dynamic and engaging web application that replicates the user interface and functionality of the popular streaming service, Netflix. This project was developed using React, a powerful JavaScript library for building user interfaces, and Firebase for backend functionality. The project stands out with its extensive movie and TV show database powered by TMDb (The Movie Database).
   And one Thing to view the Items,  **need to login first or you are at first time then please signUp and you view the all items and you can add products.**
