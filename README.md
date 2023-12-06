@@ -21,8 +21,10 @@ The Netflix Clone project is a dynamic and engaging web application that replica
 * React.js
 * Firebase (Authentication, Firestore)
 * TMDb API (The Movie Database)
+* Context API
 * HTML/CSS
 * JavaScript
+* react router dom for manage the Router
 
 Deployment: Host the project on a cloud platform  Netlify
 
